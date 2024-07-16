@@ -32,7 +32,7 @@ Tecnologia utilizadas:
 
 Imagens do progeto:
 
-![Logo do site:](https://instrutorss.jpg)
+![Logo do site:](https://exemplo.com/instrutorss.jpg)
 
 
 
