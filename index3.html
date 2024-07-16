@@ -1,0 +1,71 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bem Estar 60</title>
+    <link rel="stylesheet" href="styles3.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <h1>BemEstar 60</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#carrinho">Meu carrinho</a></li>
+                    <li><a href="#perfil">Perfil</a></li>
+                    <li><a href="#configuracoes">Configurações</a></li>
+                    <li><a href="#sair">Sair</a></li>
+                </ul>
+            </nav>
+            <button id="ajuda">Ajuda</button>
+        </aside>
+        <main>
+            <section id="perfil">
+                <h2>Perfil do Usuário</h2>
+                <div class="user-info">
+                    <img src="img/mestre kami (1).jpg" alt="Foto do usuário">
+                    <ul>
+                        <li><strong>Nome Completo:</strong> Alfredo Torres</li>
+                        <li><strong>E-mail:</strong> usuario@example.com</li>
+                        <li><strong>Idade:</strong> 60 anos</li>
+                        <li><strong>Tipo de Exercício Favorito:</strong> Pilates</li>
+                        <li><strong>Frequência Semanal:</strong> 3 vezes por semana</li>
+                    </ul>
+                </div>
+            </section>
+            <section id="configuracoes">
+                <h2>Configurações</h2>
+                <form>
+                    <div>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="Informe seu e-mail">
+                    </div>
+                    <div>
+                        <label for="produto-nome">Nome do Produto:</label>
+                        <input type="text" id="produto-nome" name="produto-nome">
+                    </div>
+                    <div>
+                        <label for="produto-info">Informações do Produto:</label>
+                        <input type="text" id="produto-info" name="produto-info">
+                    </div>
+                    <div>
+                        <label for="produto-preco">Preço do Produto:</label>
+                        <input type="text" id="produto-preco" name="produto-preco">
+                    </div>
+                    <div>
+                        <button type="submit">Salvar</button>
+                    </div>
+                </form>
+            </section>
+            <section id="pedidos">
+                <h2>Pedidos</h2>
+                <input type="text" id="buscar-pedidos" name="buscar-pedidos" placeholder="Buscar Pedidos">
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#app {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.form {
+    padding: 20px;
+    width: 50%;
+}
+
+.form h1 {
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: calc(100% - 20px);
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.form p {
+    margin: 10px 0;
+}
+
+.form a {
+    color: orange;
+    text-decoration: none;
+}
+
+.image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.image img {
+    max-width: 100%;
+}

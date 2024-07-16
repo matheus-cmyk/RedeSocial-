@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #004d40;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 15px 0;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar button#ajuda {
+    background-color: #ff9800;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+main section h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-info img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+.user-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.user-info ul li {
+    margin-bottom: 10px;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #004d40;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00332e;
+}

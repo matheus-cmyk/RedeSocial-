@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BemEstar 60</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+    <div id="app">
+        <div class="container" id="login-container">
+            <div class="form">
+                <h1>BemEstar 60</h1>
+                <input type="text" placeholder="Nome" id="name">
+                <input type="email" placeholder="Email" id="email">
+                <input type="password" placeholder="Senha" id="password">
+                <button onclick="login()">Entrar</button>
+                <p><a href="#" onclick="showResetPassword()">Esqueceu a senha?</a></p>
+            </div>
+            <div class="image">
+                <img src="img/instrutorss.jpg" alt="E-commerce de atividades físicas">
+            </div>
+        </div>
+
+        <div class="container" id="reset-password-container" style="display:none;">
+            <div class="form">
+                <h1>BemEstar 60</h1>
+                <p>ESQUECEU A SENHA?</p>
+                <p>Informe o e-mail para o qual deseja redefinir a sua senha.</p>
+                <input type="email" placeholder="Email" id="reset-email">
+                <button onclick="sendResetEmail()">Entrar</button>
+            </div>
+            <div class="image">
+                <img src="img/instrutorss.jpg" alt="E-commerce de atividades físicas">
+            </div>
+        </div>
+
+        <div class="container" id="email-sent-container" style="display:none;">
+            <div class="form">
+                <h1>BemEstar 60</h1>
+                <p>E-MAIL ENVIADO</p>
+                <p>Caso o e-mail esteja cadastrado no aplicativo, você receberá em seu e-mail com as instruções para definir uma senha nova.</p>
+                <p>Caso não tenha recebido a mensagem verifique se digitou o endereço de e-mail corretamente.</p>
+                <a href="#" onclick="showLogin()">Reenviar E-mail</a>
+            </div>
+            <div class="image">
+                <img src="img/instrutorss.jpg" alt="E-commerce de atividades físicas">
+            </div>
+        </div>
+    </div>
+    <script src="scripts1.js"></script>
+    
+</body>
+</html>
