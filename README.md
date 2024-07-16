@@ -32,7 +32,7 @@ Tecnologia utilizadas:
 
 Imagens do progeto:
 
-![Logo do site:](https://RedeSocial-/blob/main/instrutorss.jpg) 
+![Logo do site:](https://github.com/matheus-cmyk/RedeSocial-/blob/main/instrutorss.jpg) 
 
 
 
