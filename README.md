@@ -1,5 +1,5 @@
 BemEstar60 
-
+O BemEstar 60 é um site especialmente criado para idosos com mais de 60 anos que buscam uma vida ativa e saudável. Nosso objetivo é oferecer uma plataforma intuitiva e amigável, onde você pode encontrar tudo o que precisa para começar ou continuar sua jornada de exercícios físicos.
 
 Visao geral:
 Esta aplicacao esta sendo desenvolvida para disciplina de analise de sistema, para o curso tecnico de informatica. a pratica sera do planejamento do projeto em questao, serao desenvolvidos todo o planejamento, diagrama da UML(sao uso, diagrama sequencia; diagrama de classes) diagrama entidade relacionamento (DER). Prtotipo da telas (uso de wireframes/mockups); requisitos nao funcionais, resquisitos funcionais e restricoes.cronograma de desenvolvimento
@@ -30,9 +30,13 @@ Tecnologia utilizadas:
 -Js
 -canvas
 
-Imagens do progeto:
+Imagem da logo do progeto:
 
 ![Logo do site:](https://github.com/matheus-cmyk/RedeSocial-/blob/main/instrutorss.jpg) 
+
+Criadores do site:
+Nathan, Mateus e Lucas
+
 
 
 
